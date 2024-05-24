@@ -1,0 +1,29 @@
+{
+  "name": "@arvinn/prettier-config",
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.1.1",
+  "description": "Prettier config for @arvinn",
+  "license": "MIT",
+  "homepage": "https://github.com/pinky-pig/use/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/pinky-pig/use/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinky-pig/use.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp && pnpm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "bumpp": "^9.4.1",
+    "prettier": "^3.2.5"
+  },
+  "prettier": "./index.js"
+}
