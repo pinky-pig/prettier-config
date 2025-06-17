@@ -22,8 +22,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "bumpp": "^9.4.1",
-    "prettier": "^3.2.5"
+    "bumpp": "^9.11.1",
+    "prettier": "^3.5.3"
   },
   "prettier": "./index.js"
 }
