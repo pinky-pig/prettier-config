@@ -12,6 +12,9 @@ module.exports = {
 
   // 在多行逗号分隔的结构中尾部加逗号，比如数组或对象最后一个元素后面也加逗号
   trailingComma: 'all',
+  
+  // 忽略 html 标签中的换行符
+  htmlWhitespaceSensitivity: 'ignore',
 
   // 针对不同文件做单独的配置覆盖
   overrides: [
