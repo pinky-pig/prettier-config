@@ -1,6 +1,6 @@
 {
   "name": "@arvinn/prettier-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "packageManager": "pnpm@10.33.0",
   "description": "Prettier config for @arvinn",
   "license": "MIT",
