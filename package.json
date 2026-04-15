@@ -1,7 +1,7 @@
 {
   "name": "@arvinn/prettier-config",
   "version": "0.0.3",
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@10.33.0",
   "description": "Prettier config for @arvinn",
   "license": "MIT",
   "homepage": "https://github.com/pinky-pig/prettier-config",
@@ -16,14 +16,17 @@
     "index.js"
   ],
   "scripts": {
+    "up": "taze major -I",
     "release": "bumpp && pnpm publish"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "bumpp": "^10.1.1",
-    "prettier": "^3.5.3"
+    "bumpp": "^11.0.1",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "taze": "^19.11.0"
   },
   "prettier": "./index.js"
 }

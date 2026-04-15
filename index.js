@@ -4,6 +4,10 @@
  * @type {import('prettier').Config}
  */
 module.exports = {
+  // 启用 Tailwind CSS 类名自动排序
+  plugins: ['prettier-plugin-tailwindcss'],
+  tailwindFunctions: ['classnames', 'clsx', 'ctl', 'cva', 'tv', 'tw', 'cn'],
+
   // 是否在语句末尾添加分号
   semi: false,
 
@@ -12,7 +16,7 @@ module.exports = {
 
   // 在多行逗号分隔的结构中尾部加逗号，比如数组或对象最后一个元素后面也加逗号
   trailingComma: 'all',
-  
+
   // 忽略 html 标签中的换行符
   htmlWhitespaceSensitivity: 'ignore',
 
