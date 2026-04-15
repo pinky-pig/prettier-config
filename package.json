@@ -1,6 +1,6 @@
 {
   "name": "@arvinn/prettier-config",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "packageManager": "pnpm@10.33.0",
   "description": "Prettier config for @arvinn",
   "license": "MIT",
@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "up": "taze major -I",
-    "release": "bumpp"
+    "release": "set -a; [ -f .env ] && . ./.env; set +a; bumpp"
   },
   "publishConfig": {
     "access": "public"
